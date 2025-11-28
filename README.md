@@ -10,8 +10,20 @@ essse projeto foi iniciado prara estudos de versionamento de código com git e g
 # resumo das aulas
 |aulas | resumo
 |--------||--------||
+
+|aula 1|
 |gravando alterações no repositório local resumos: {https://github.com/Mili-cpu/Estudo-.git}
 
+|aula 2|
+|dando commit| desfazendo alterações|
+
+|aula 3|
+|criando pasta para fora do bonner|
+|resumo : Aprendi a renomear os commits de duas formas e desfazer alterações
+
+| link commit: {be45f4292aecae69d5da2b5c1296a141cda383ae}
+
+# aula 1 códigos
 ~~~
 
 git init
@@ -32,6 +44,41 @@ git status
 touch.README.md
 
 ~~~
+# aula 2 códigos
+
+~~~
+#dando commit
+
+git clone
+git init
+git add
+git commit -m "mensagem"
+
+#mudando nome commit
+
+git commit --amend -n "novo"
+git log
+git commit --amend
+(alteração)
+(esc:w)
+~~~
+
+# aula 3 códigos
+~~~
+#criando
+
+cd
+mkdir (nome)
+cd (nome)
+git init
+echo (#nome) > (nome)
+git add(nome)
+git commit -m "assunto"
+git remote add origin (link)
+git push -u origin master
+git log
+~~~
+
 # referências
 - documentação github 
 - orientadores do curso dio
