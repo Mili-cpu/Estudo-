@@ -1,5 +1,5 @@
 
-# dio estudos milly_cpu
+# dio estudo milly_cpu
 
 essse projeto foi iniciado prara estudos de versionamento de código com git e github atividade de versionamento de código no github:https://github.com/Mili-cpu/Estudo-.git
 
