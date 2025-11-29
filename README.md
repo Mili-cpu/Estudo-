@@ -20,11 +20,14 @@ essse projeto foi iniciado prara estudos de versionamento de código com git e g
 |aula 3|
 |criando pasta para fora do bonner|
 |resumo : Aprendi a renomear os commits de duas formas e desfazer alterações
+| link commit: {be45f4292aecae69d5da2b5c1296a141cda383ae}
+
 
 |aula 4|
 |criando branchs|mesclando branchs|deletando branchs| tratando conflitos|
+|link repositório branchs: {https://github.com/Mili-cpu/branchs.git}
 
-| link commit: {be45f4292aecae69d5da2b5c1296a141cda383ae}
+
 
 # aula 1 códigos
 ~~~
