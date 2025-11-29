@@ -21,6 +21,9 @@ essse projeto foi iniciado prara estudos de versionamento de código com git e g
 |criando pasta para fora do bonner|
 |resumo : Aprendi a renomear os commits de duas formas e desfazer alterações
 
+|aula 4|
+|criando branchs|mesclando branchs|deletando branchs| tratando conflitos|
+
 | link commit: {be45f4292aecae69d5da2b5c1296a141cda383ae}
 
 # aula 1 códigos
@@ -78,6 +81,41 @@ git remote add origin (link)
 git push -u origin master
 git log
 ~~~
+
+# aula 4 códigos
+~~~
+criando
+
+git checkout -b <nome>
+echo "# commit-<nome>-r" > commit-<nome>.txt
+git add .
+git commit -m"assunto"
+git branch -r
+
+mesclando
+
+git checkout <nome>
+git merge <nome>
+
+deletando
+
+git branch -d <nome>
+
+conflitos
+
+git pull
+git add .
+git commit  -m"assunto"
+git log
+git push origin <nome>
+
+comandos úteis
+
+git fetch origin <nome>
+git diff <nome> origin/<nome>
+
+~~~
+
 
 # referências
 - documentação github 
